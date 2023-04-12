@@ -39,4 +39,4 @@ explode_set[2] = 0.15
 plt.figure(figsize=(20,20))
 plt.pie(data_all, labels = labels_all, colors = colors[20:],explode=explode_set, autopct='%.0f%%',textprops={'fontsize': 30},wedgeprops = {"edgecolor":"black",'linewidth': 1.2},counterclock=False,startangle=90,pctdistance=0.8,labeldistance=1.1)
 plt.savefig(os.path.join(Folder2,File2),dpi=600,bbox_inches='tight')
-#plt.show()
+plt.show()
