@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  2 10:28:47 2023
-
-@author: dcs839
-"""
 
 ### Metabolomics data analysis ###
 
