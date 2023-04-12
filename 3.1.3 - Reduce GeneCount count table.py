@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  7 13:07:10 2022
-
-@author: dcs839
-"""
 
 ### Reduce RNA-STAR count table ###
 
