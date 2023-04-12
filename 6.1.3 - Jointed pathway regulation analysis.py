@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 11 13:33:16 2023
-
-@author: dcs839
-"""
 
 ### Jointed pathway regulation ###
 
