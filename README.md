@@ -88,7 +88,7 @@ The analysis uses RNA STAR for mapping and RSEM for TPM quantification.
 5.1.1 - Panther DB data analysis.py
 
 ### Subcelluar location - Transport ###
-
+Load data (transport) into cytoscape using string-db plugin -> save table with compartment scores. \
 5.1.2 - Subcellular location of transporters.py
 
 ### Transport analysis ###
