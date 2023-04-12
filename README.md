@@ -1,6 +1,4 @@
-# Day_night_transcriptomics_and_CSF_metabolomics
-
-# MacAulayLab Nocturnal rythem RNAseq
+# MacAulayLab Day-night fluctuations in choroid plexus transcriptomics and CSF metabolomics
 The work and scripts are done by the MacAulay Lab.\
 All programs used are free and open-source.
 In the interest of open science and reproducibility, all data and source code used in our research is provided here.\
