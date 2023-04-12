@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 12 09:19:10 2023
-
-@author: dcs839
-"""
 
 ### Differentially expressed transporters ### 
 
