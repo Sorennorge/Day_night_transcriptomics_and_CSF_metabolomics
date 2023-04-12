@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 10 13:50:13 2023
-
-@author: dcs839
-"""
 
 ### Panther DB data analysis ###
 
@@ -32,7 +27,6 @@ File5 = "Supplementary table 1.xlsx"
 File6 = "Transporter_list_correct.xlsx"
 
 ## Variables ##
-"""
 cutoff = 40
 
 ## Load protein class data ##
@@ -62,15 +56,15 @@ df_classes.rename(columns={1: "Classes",2:"Values"},inplace=True)
 writer = pd.ExcelWriter(os.path.join(Folder2,File3), engine='xlsxwriter')
 df_classes.to_excel(writer,sheet_name='Enrichment data',index=False)
 writer.save()
-"""
+
 ## load transporter data #
-"""
+
 df_transporter = pd.read_csv(os.path.join(Folder1,File2),sep="\t",header=None)
 df_transporter = df_transporter.drop([0,2,3,4,5], axis=1)
 writer = pd.ExcelWriter(os.path.join(Folder2,File4), engine='xlsxwriter')
 df_transporter.to_excel(writer,sheet_name='Transporters',index=False,header=False)
 writer.save()
-"""
+
 df_transport = pd.read_excel(os.path.join(Folder2,File4),header=None)
 df_supp = pd.read_excel(os.path.join(Folder5,File5),sheet_name='Differentially expressed genes')
 col_list1 = df_transport[0].values.tolist()
@@ -91,15 +85,13 @@ for key in col_list1:
             correct_gene_name.append(key)
         else:
             pass
-            #print(key)
-
+        
+## Collect all transport ##
 addition = list(set(col_list3+col_list4)-set(correct_gene_name))
 
 transporter_list = correct_gene_name+addition
 
 transporter_df = pd.DataFrame({'Genes':transporter_list})
-#(list(set(col_list1)-set(col_list3)-set(col_list4)))
-
 
 transporter_df.to_excel(os.path.join(Folder2,File6),sheet_name="Transporters",index=False)
 
