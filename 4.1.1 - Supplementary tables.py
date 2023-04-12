@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Mar  1 09:08:57 2022
-
-@author: dcs839
-"""
 
 ### Evaluate DE analysis of Lightphase/Darkphase rats -- Add information and create supplementary tables ###
 
@@ -14,7 +9,6 @@ import pandas as pd
 import numpy as np
 
 ## Folders ##
-
 
 Folder1 = "Data/RNA/Gene info/Biomart"
 Folder2 = "Results/RNA/Differential expressed tables"
@@ -36,7 +30,8 @@ Deseq_DE_file = "DEseq2_DE_genes_Analysis_Sleep.csv"
 Deseq_all_file = "DEseq2_all_genes_Analysis_Sleep.csv"
 
 # Category file #
-Category_file = "Supplementary Tables_2022_01_17.xlsx"
+# Category file are from earlier work: https://fluidsbarrierscns.biomedcentral.com/articles/10.1186/s12987-022-00335-x
+Category_file = "Supplementary Tables.xlsx"
 
 # Count table #
 
