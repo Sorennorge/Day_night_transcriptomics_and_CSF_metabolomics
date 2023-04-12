@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 28 14:32:21 2022
-
-@author: dcs839
-"""
 
 ### Pathway plot ###
 
