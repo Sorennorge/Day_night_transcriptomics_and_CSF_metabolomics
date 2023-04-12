@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  7 15:50:15 2022
-
-@author: dcs839
-"""
 
 ### Reduce RSEM count table ###
 
@@ -31,7 +26,6 @@ for x in range(1,7,1):
     Sleep_header.append("Day {}".format(x))
 for x in range(1,7,1):
     Sleep_header.append("Night {}".format(x))
-
 
 ## reduce count table ###
 
