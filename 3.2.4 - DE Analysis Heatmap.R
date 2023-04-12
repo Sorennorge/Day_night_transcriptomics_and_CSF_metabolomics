@@ -24,7 +24,6 @@ if (file.exists(Folder2)){
   dir.create(Folder2,recursive = TRUE)
 }
 
-
 ## Files ##
 
 File1 = "Count_table_Sleep_RNASTAR_Reduced.csv"
