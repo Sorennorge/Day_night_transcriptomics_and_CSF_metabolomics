@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 11 14:46:07 2023
-
-@author: dcs839
-"""
 
 ### Jointed pathway analysis input data generator ###
 
