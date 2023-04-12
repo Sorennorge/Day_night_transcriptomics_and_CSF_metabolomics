@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 28 08:22:17 2021
-
-@author: dcs839
-"""
 
 ### Generate count table from gene count files (RNA-STAR) ###
 
