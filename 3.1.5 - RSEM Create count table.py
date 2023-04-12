@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  7 15:46:20 2022
-
-@author: dcs839
-"""
 
 ### Generate count table from RSEM output (TPM column) csv files ###
 
