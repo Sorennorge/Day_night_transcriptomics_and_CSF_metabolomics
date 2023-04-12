@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 12 08:58:48 2023
-
-@author: dcs839
-"""
 
 ### Subcellular locations of transporters ###
 
