@@ -21,7 +21,7 @@ os.makedirs(Folder2, exist_ok=True)
 
 # files #
 
-file_in = "Overview_Final_BEA03012023.xlsx"
+file_in = "Overview.xlsx"
 file_out = "Metabolic Pathway.png"
 
 
@@ -29,7 +29,6 @@ df = pd.read_excel(os.path.join(Folder1,file_in),sheet_name="Pathway stats")
 df2 = df[df['FDR'] < 0.1]
 n = 20
 diverging_colors = sns.color_palette("mako_r", n)
-#df2['#'] = df2['#'].multiply(100)
 
 with sns.plotting_context(rc={"legend.fontsize":14}):
     plt.figure(figsize=(25,15))
@@ -38,5 +37,5 @@ with sns.plotting_context(rc={"legend.fontsize":14}):
     plt.title("Metabolic Pathway", size=20)
     h,l = ax.get_legend_handles_labels()
     plt.legend(h[0:3],l[0:3],bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0., fontsize=13)
-    #plt.savefig(os.path.join(Folder2,file_out),dpi=800,bbox_inches='tight')
+    plt.savefig(os.path.join(Folder2,file_out),dpi=800,bbox_inches='tight')
     plt.show()
