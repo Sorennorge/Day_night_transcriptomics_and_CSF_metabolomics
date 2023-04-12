@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  9 10:29:14 2023
-
-@author: dcs839
-"""
 
 ### Enrichment plots ###
 
