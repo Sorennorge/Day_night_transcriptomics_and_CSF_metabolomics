@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  9 08:48:38 2023
-
-@author: dcs839
-"""
 
 ### Piechart - differentially expressed overview ###
 
@@ -15,7 +10,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-    
 ## Files ##
 
 File1 = "Count_table_Sleep_RSEM_Reduced.csv"
