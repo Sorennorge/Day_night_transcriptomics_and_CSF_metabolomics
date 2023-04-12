@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 11 10:15:42 2023
-
-@author: dcs839
-"""
 
 ### Jointed pathway analysis ###
 
