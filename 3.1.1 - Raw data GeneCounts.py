@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 28 08:09:09 2021
 
-@author: dcs839
-"""
-
-#### Convert RNA-STAR gene count files to csv ###
+### Convert RNA-STAR gene count files to csv ###
 
 ## Import libraries ##
 
