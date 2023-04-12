@@ -200,7 +200,7 @@ else:
     PCA_targets.to_excel(os.path.join(Folder4,File5),sheet_name='PCA Targets',header=False,index=False)
 
 ## For PCA plot ##
-# Run script 1.2.1 - PCA plot.py #
+# Run script 2.2.1 - PCA plot.py #
 
 ### Data analysis ###
 
